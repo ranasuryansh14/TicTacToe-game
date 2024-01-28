@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom right, #FFDB01, #0E197D);
+    min-height: 100vh;
+    text-align: center;
+}
+#intro{
+    font-size: 4rem;
+    font-weight: 800;
+font-family: 'Rubik Scribble', system-ui;
+    text-align: center;
+    justify-content: center;
+    /* font-weight: 700; */
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 3px solid rgba(0, 0, 0, 0.397);
+    color: black;
+    font-size: 8vmin;
+
+}
+.box:hover{
+    border: 4px solid rgba(0, 0, 0, 0.668);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.297);
+}
+.start{
+    height: 60px;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.348);
+    font-size: 1.6rem;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    
+}
+.reset{
+    height: 60px;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.348);
+    font-size: 1.6rem;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+.msg{
+    font-size: 3rem;
+    font-weight: 800;
+font-family: 'Rubik Scribble', system-ui;
+    
+}
+.hide{
+    display: none;
+}
